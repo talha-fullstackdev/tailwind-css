@@ -6,6 +6,7 @@ import PricingCom from "./assets/components/PricingCom"
 import TeamSection from "./assets/components/TeamSection"
 import Logos from "./assets/components/Logos"
 import Practice from "./assets/practice/Practice"
+import SurveyForm from "./assets/survey website/SurveyForm"
 function App() {
   return (
   // <UseRef/>
@@ -16,7 +17,8 @@ function App() {
   <PricingCom/>
   <TeamSection/>
   <Logos/> */}
-  <Practice/>
+  {/* <Practice/> */}
+  <SurveyForm/>
   </>
   )
 }

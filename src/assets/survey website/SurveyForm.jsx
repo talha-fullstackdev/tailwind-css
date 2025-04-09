@@ -1,6 +1,9 @@
 import React, { useRef, useState } from "react";
+import UseTitle from "../UseTitle";
 import Form from "./Form";
+
 const SurveyForm = () => {
+  UseTitle("Surey Form")
   const [userData, setUserData] = useState([]); // state to hold user data
   const nameRef = useRef(); // ref for inputs
   const emailRef = useRef();

@@ -34,8 +34,11 @@ const HeaderComponent = () => {
           <li className="text-[#02033B] font-bold inter">iPhone</li>
           <li className="text-[#02033B] font-bold inter">Android</li>
           <li className="text-[#02033B] font-bold inter">Help</li>
-          <select value="" className="text-[#02033B] font-bold inter">
-            <option className="text-[#02033B] font-bold" name="" id="">Company</option>
+          <select value="" className="text-[#02033B]  font-bold inter">
+            <option className="text-[#02033B] text-[16px]   font-bold bg-slate-300" name="" id="">Company</option>
+            <option className="text-[#02033B] text-[16px]  font-bold bg-slate-300" name="" id="">Address</option>
+            <option className="text-[#02033B] text-[16px]  font-bold bg-slate-300" name="" id="">Contact</option>
+            <option className="text-[#02033B] text-[16px]  font-bold bg-slate-300" name="" id="">Services</option>
           </select>
         </ul>
         <button className="bg-[#4335DE] text-white w-[91.95px] h-[50px] rounded-full text-[18px]">Sign in</button>

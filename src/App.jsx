@@ -1,5 +1,5 @@
 // import UseRef from "./assets/components/UseRef"
-// import Header from "./assets/components/Header"
+import Header from "./assets/components/Header"
 // import Tailwind from "./assets/components/Tailwind"
 // import Navbar from "./assets/components/Navbar"
 // import PricingCom from "./assets/components/PricingCom"
@@ -8,13 +8,14 @@
 // import Practice from "./assets/practice/Practice"
 // import SurveyForm from "./assets/survey website/SurveyForm"
 // import Example from "./assets/Example"
-import Design from "./assets/design/Design"
+// import Design from "./assets/design/Design"
 function App() {
   return (
   // <UseRef/>
-  // <Header/>
+ 
   // <Tailwind/>
   <>
+   <Header/>
   {/* <Navbar/>
   <PricingCom/>
   <TeamSection/>
@@ -22,7 +23,7 @@ function App() {
   {/* <Practice/> */}
   {/* <SurveyForm/> */}
  {/* <Example/> */}
-<Design/>
+{/* <Design/> */}
   </>
   )
 }

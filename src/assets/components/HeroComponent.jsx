@@ -1,10 +1,10 @@
 import heroImage1 from "../../../public/home-header-2.png.png"
 import heroImage2 from "../../../public/android-dashboard-certo-2.png.png"
-const Hero = () => {
+const HeroComponent = () => {
   return (
-        <div className="flex w-[1440px] justify-center m-auto">
-      
-      <div className="w-[634px] flex flex-col  gap-10 ml-36 pt-20 relative">
+    <div className="flex w-[1440px] justify-center m-auto sm:flex-wrap md:flex-nowrap">
+    
+      <div className="w-[634px] flex flex-col  gap-10 ml-40 pt-20 relative">
         <p className="text-[60px] font-bold text-[#02033B] w-[595px] pt-16">Your mobile privacy is our mission</p>
         <p className="text-[20px] w-[597.89]">Think your phone has been hacked? Our trusted apps make it easy for you to scan, detect and remove threats from your iPhone and Android devices.</p>
        
@@ -28,4 +28,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default HeroComponent;

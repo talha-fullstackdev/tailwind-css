@@ -1,6 +1,6 @@
 // import UseRef from "./assets/components/UseRef"
-import Header from "./assets/components/Header"
-import Hero from "./assets/components/Hero"
+import HeaderComponent from "./assets/components/HeaderComponent"
+import HeroComponent from "./assets/components/HeroComponent"
 // import Tailwind from "./assets/components/Tailwind"
 // import Navbar from "./assets/components/Navbar"
 // import PricingCom from "./assets/components/PricingCom"
@@ -16,8 +16,8 @@ function App() {
  
   // <Tailwind/>
   <>
-   <Header/>
-   <Hero/>
+   <HeaderComponent/>
+   <HeroComponent/>
   {/* <Navbar/>
   <PricingCom/>
   <TeamSection/>

@@ -22,7 +22,7 @@
 // export default Header
 import logo from "../../../public/logo.svg.png"
 
-const Header = () => {
+const HeaderComponent = () => {
   return (
 
     <header className="max-w-[1440px] h-[102px] flex items-center m-auto justify-around bg-[#F3F8FF] flex-wrap">
@@ -45,5 +45,5 @@ const Header = () => {
   )
 }
 
-export default Header
+export default HeaderComponent
 

@@ -14,15 +14,13 @@ const HeroComponent = () => {
         </div>
 
       </div>
-      {/* ////////////// hero section first div background div */}
-      <div className="w-[900px] h-[772px] absolute bg-[#F3F8FF] top-10 left-[-15px] -z-[1] rounded-tr-[1100px]"></div>
+      <div className="w-[900px]   h-[772px] absolute bg-[#F3F8FF] top-10 left-[-15px] -z-[1] rounded-tr-[1100px]"></div>
 
-      <div className="w-[720px] relative mt-[70px] ">
-        <img src={heroImage1} alt="hero image one" className="border-t-[25px] border-l-[25px] border-[#4335DE]" />
+      <div className="w-[741px] relative mt-[70px] ">
+        <img src={heroImage1} alt="hero image one" className="border-t-[25px] border-l-[25px] border-[#4335DE] w-[100%]" />
         <div className="absolute top-16 w-[241px] border left-16 border-black">
            <img className="" src={heroImage2} alt="hero image two" />
         </div>
-       
       </div>
     </div>
   )

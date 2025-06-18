@@ -24,8 +24,8 @@ import logo from "../../../public/logo.svg.png"
 
 const HeaderComponent = () => {
   return (
-
-    <header className="max-w-[1440px] h-[102px] flex items-center m-auto justify-around bg-[#F3F8FF] flex-wrap">
+    <div className="bg-[#F3F8FF]">
+    <header className="max-w-[1440px] h-[102px] flex items-center m-auto justify-around  flex-wrap">
       <div className="w-[157px] h-[53.85px] text-center flex justify-center items-center">
         <img className="" src={logo} alt="logo.png" />
       </div>
@@ -44,10 +44,9 @@ const HeaderComponent = () => {
         <button className="bg-[#4335DE] text-white w-[91.95px] h-[50px] rounded-full text-[18px]">Sign in</button>
       </nav>
     </header>
+    </div>
 
   )
 }
 
 export default HeaderComponent
-
-//////////////

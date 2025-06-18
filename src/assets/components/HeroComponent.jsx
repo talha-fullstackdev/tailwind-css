@@ -1,5 +1,5 @@
-import heroImage1 from "../../../public/home-header-2.png.png"
-import heroImage2 from "../../../public/android-dashboard-certo-2.png.png"
+import heroImage1 from "/home-header-2.png.png" // we can write directly like this images in public folder
+import heroImage2 from "/android-dashboard-certo-2.png.png"
 const HeroComponent = () => {
   return (
     <div className="flex w-[1440px] justify-center m-auto sm:flex-wrap md:flex-nowrap">
@@ -9,8 +9,8 @@ const HeroComponent = () => {
         <p className="text-[20px] w-[597.89] leading-[30px] inter">Think your phone has been hacked? Our trusted apps make it easy for you to scan, detect and remove threats from your iPhone and Android devices.</p>
        
         <div className="w-[612.25px] flex gap-10">
-          <button className="w-[268.66px]  bg-[#FFC247] text-[19px] font-bold p-2 rounded-full">Get Certo for iPhone</button>
-          <button className="w-[268.66px] border-2 border-black text-[19px] font-bold p-2 rounded-full">Get Certo for Android</button>
+          <button className="w-[268.66px]  bg-[#FFC247] text-[19px] font-bold p-2 rounded-full inter">Get Certo for iPhone</button>
+          <button className="w-[268.66px] border-2 border-black text-[19px] font-bold p-2 rounded-full inter">Get Certo for Android</button>
         </div>
 
       </div>

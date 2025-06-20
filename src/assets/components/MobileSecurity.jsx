@@ -2,7 +2,7 @@ import adobestock from "/public/AdobeStock.jpeg"
 const MobileSecurity = () => {
   return (
     <div className="">
-        <div className="max-w-[1176px] mx-[132px] my-[84px] flex gap-[60px] flex-wrap">
+        <div className="max-w-[1176px] m-auto my-[84px] flex gap-[60px] flex-wrap">
             <div className="w-[588px]">
                 <p className="ml-[60px] mt-[2px] mr-[81.6px] w-[446.4px] inter text-[36px] text-[#02033B] font-extrabold leading-[45px] tracking-[-0.72px]">At Certo, mobile security <br />is not an afterthought, it’s what we do.</p>
                 <p className="w-[448.23px] mt-[43px] ml-[60px] mr-[79.77px] text-[20px] leading-[30px] tracking-[0%] text-[#02033B] inter">With years of experience in mobile security and spyware detection, our products have helped countless people safeguard their devices and find peace of mind.</p>

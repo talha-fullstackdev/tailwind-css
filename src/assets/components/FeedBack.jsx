@@ -37,6 +37,7 @@ const FeedBack = () => {
       heading: "Easy to use",
       text: "We create easy to use apps that can check your device for vulnerabilities in a matter of minutes.",
     },
+ 
   ];
 
   return (
@@ -52,7 +53,7 @@ const FeedBack = () => {
             <div key={index} className="max-w-[200] flex flex-col items-center justify-center ">
               <img className="max-w-[77px]" src={item.image} alt="" />
               <h2 className="max-w-[184px] inter text-center mt-[24px] text-[19px] font-bold leading-[25px] tracking-[-0.4px] text-[#02033B]">{item.heading}</h2>
-              <p className={`${index==0 ? "max-w-[196.48px]":""} ${index==1 ? "max-w-[184.54px]":""} ${index==2 ? "max-w-[197.62px]":""} ${index==3 ? "max-w-[193.15px]":""} ${index==4 ? "max-w-[198.48px]":""} ${index==5 ? "max-w-[198.22px]":""} mt-[24px] pl-[12.86px] pr-[12.62px] text-[16px] leading-[24px] tracking-[0%] inter text-center text-[#02033B] `}>{item.text}</p>
+              <p className={`${index==0 && "max-w-[196.48px]"} ${index==1 && "max-w-[184.54px]"} ${index==2 && "max-w-[197.62px]"} ${index==3 && "max-w-[193.15px]"} ${index==4 && "max-w-[198.48px]"} ${index==5 && "max-w-[198.22px]"} mt-[24px] pl-[12.86px] pr-[12.62px] text-[16px] w-[196.48px] leading-[24px] tracking-[0%] inter text-center text-[#02033B] `}>{item.text}</p>
             </div>
           ))}
         </div>

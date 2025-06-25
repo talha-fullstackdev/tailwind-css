@@ -3,6 +3,7 @@ import HeroComponent from "./assets/components/HeroComponent"
 import Craousal from "./assets/components/Craousal"
 import MobileSecurity from "./assets/components/MobileSecurity"
 import FeedBack from "./assets/components/FeedBack"
+import OurStory from "./assets/components/OurStory"
 function App() {
   return (
   <>
@@ -11,6 +12,7 @@ function App() {
    <Craousal/>
    <MobileSecurity/>
    <FeedBack/>
+   <OurStory/>
   </>
   )
 }

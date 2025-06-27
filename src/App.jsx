@@ -5,6 +5,7 @@ import MobileSecurity from "./assets/components/MobileSecurity"
 import FeedBack from "./assets/components/FeedBack"
 import OurStory from "./assets/components/OurStory"
 import Spaying from "./assets/components/Spaying"
+import Insights from "./assets/components/Insights"
 function App() {
   return (
   <>
@@ -15,6 +16,7 @@ function App() {
    <FeedBack/>
    <OurStory/>
    <Spaying/>
+   <Insights/>
   </>
   )
 }

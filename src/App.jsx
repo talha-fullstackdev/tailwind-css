@@ -4,6 +4,7 @@ import Craousal from "./assets/components/Craousal"
 import MobileSecurity from "./assets/components/MobileSecurity"
 import FeedBack from "./assets/components/FeedBack"
 import OurStory from "./assets/components/OurStory"
+import Spaying from "./assets/components/Spaying"
 function App() {
   return (
   <>
@@ -13,6 +14,7 @@ function App() {
    <MobileSecurity/>
    <FeedBack/>
    <OurStory/>
+   <Spaying/>
   </>
   )
 }
